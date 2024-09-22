@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.about {
+    background-color: #E8F5E9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.skills {
+    background-color: #FFF3E0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.projects {
+    background-color: #E1F5FE;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: #FCE4EC;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #FF5722;
+}
