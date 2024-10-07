@@ -54,34 +54,34 @@ section {
 
 /* Projects Section */
 .projects {
+    display: flex;
+    flex-wrap: wrap; /* Condensed to save space */
     background-color: #E1F5FE;
 }
 
 .project {
-    padding: 20px;
-    background-color: #E3F2FD; /* Light blue background */
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Adjusted for better fit */
+    margin: 10px;
+    padding: 20px 10px;
+    background-color: #f0f0f0; /* Background color */
+    border-radius: 15px;
     text-align: center;
 }
 
 .project img {
-    width: 250px;
+    width: 100%; /* Make image responsive */
     height: auto;
-    border-radius: 5px;
-    margin-top: 15px;
-    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .project img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Add a hover effect */
 }
 
 .project h3 {
-    color: #1976d2;
+    color: #007BFF; /* Blue for headings */
     margin-top: 10px;
-    font-size: 1.5rem;
 }
 
 .project p {
