@@ -39,6 +39,11 @@ h2 {
     border-radius: 8px;
 }
 
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
 /* Projects Section */
 .projects {
     display: flex;
@@ -62,7 +67,7 @@ h2 {
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201); /* Choose a border color */
+    border: 2px solid rgb(126, 14, 201); /* Border color */
     display: block;
     margin: auto;
 }
@@ -77,26 +82,25 @@ a {
     margin: 15px;
 }
 
-/* Affinity Diagram Style for Sketches */
-.sketches-diagram {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #ccc; /* Add a light border to resemble affinity diagram style */
-    border-radius: 10px;
+/* Contact Section */
+.contact {
+    background-color: #ef96b4; /* Light pink */
     padding: 20px;
-    margin: 20px;
-    background-color: #f0f0f0; /* Light gray background for affinity style */
+    margin: 10px;
+    border-radius: 8px;
 }
 
-.sketches-diagram img {
-    width: 300px;
-    height: auto;
-    margin-bottom: 15px;
+.contact ul {
+    padding-left: 20px;
 }
 
-.sketches-diagram p {
-    font-size: 1.1rem;
-    color: #333;
+.contact a {
+    color: #D32F2F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #B71C1C;
+    text-decoration: underline;
 }
