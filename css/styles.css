@@ -63,6 +63,7 @@ h2 {
     text-align: center;
 }
 
+/* Project Images Hover Effect */
 .project img {
     width: 300px;
     height: 300px;
@@ -70,16 +71,30 @@ h2 {
     border: 2px solid rgb(126, 14, 201); /* Border color */
     display: block;
     margin: auto;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-a { 
+.project img:hover {
+    transform: scale(1.1); /* Slight zoom-in effect */
+    border-color: rgb(255, 87, 51); /* Changes border color on hover */
+}
+
+/* Links Hover Effect */
+a {
     text-decoration: none;
     color: purple;
+    transition: color 0.3s ease-in-out;
 }
 
-.project p {
-    text-align: center;
-    margin: 15px;
+a:hover {
+    color: #FF5733; /* Changes text color on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Paragraph Hover Effect (Optional) */
+.project p:hover {
+    color: #FF5733; /* Change paragraph text color on hover */
+    transition: color 0.3s ease-in-out;
 }
 
 /* Contact Section */
