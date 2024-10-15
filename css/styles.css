@@ -57,31 +57,29 @@ h2 {
     width: 30%;
     margin: 10px;
     padding: 20px;
-    background-color: #FFFFFF; /* White cards */
+    background-color: #f6acac; /* White cards */
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     text-align: center;
 }
 
 .project img {
-    width: 100%; /* Responsive image */
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* Choose a border color */
+    display: block;
+    margin: auto;
 }
 
-.project img:hover {
-    transform: scale(1.05); /* Hover effect */
-}
-
-.project h3 {
-    color: #1976D2; /* Dark blue */
+a { 
+    text-decoration: none;
+    color: purple;
 }
 
 .project p {
-    font-size: 1.1rem;
-    margin-top: 10px;
-    color: #333;
+    text-align: center;
+    margin: 15px;
 }
 
 /* Contact Section */
