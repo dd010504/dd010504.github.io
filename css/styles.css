@@ -39,11 +39,6 @@ h2 {
     border-radius: 8px;
 }
 
-.skills ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
 /* Projects Section */
 .projects {
     display: flex;
@@ -57,7 +52,7 @@ h2 {
     width: 30%;
     margin: 10px;
     padding: 20px;
-    background-color: #f6acac; /* White cards */
+    background-color: #FFFFFF; /* White cards */
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     text-align: center;
@@ -82,25 +77,26 @@ a {
     margin: 15px;
 }
 
-/* Contact Section */
-.contact {
-    background-color: #ef96b4; /* Light pink */
+/* Affinity Diagram Style for Sketches */
+.sketches-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc; /* Add a light border to resemble affinity diagram style */
+    border-radius: 10px;
     padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
+    margin: 20px;
+    background-color: #f0f0f0; /* Light gray background for affinity style */
 }
 
-.contact ul {
-    padding-left: 20px;
+.sketches-diagram img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
 }
 
-.contact a {
-    color: #D32F2F;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact a:hover {
-    color: #B71C1C;
-    text-decoration: underline;
+.sketches-diagram p {
+    font-size: 1.1rem;
+    color: #333;
 }
