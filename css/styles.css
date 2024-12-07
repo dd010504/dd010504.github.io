@@ -146,3 +146,27 @@ a:hover {
     height: 100%;
     border-radius: 8px;
 }
+
+/* Iframe container for responsive design */
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; /* Ensure it doesn't overflow the parent container */
+    margin: 20px auto; /* Center the iframe with consistent margin */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Responsive iframe */
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    border: none; /* Remove iframe border */
+    border-radius: 8px; /* Match the container's rounded corners */
+}
