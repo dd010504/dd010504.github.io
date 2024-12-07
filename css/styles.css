@@ -36,7 +36,7 @@ h2 {
     height: 220px;
     border-radius: 25%;
     border: 2px solid rgb(126, 14, 201);
-}
+    }
 
 /* Skills Section */
 .skills {
@@ -98,56 +98,51 @@ a:hover {
     text-decoration: underline; /* Adds underline on hover */
 }
 
-/* Paragraph Hover Effect */
+/* Paragraph Hover Effect (Optional) */
 .project p:hover {
     color: #FF5733; /* Change paragraph text color on hover */
     transition: color 0.3s ease-in-out;
 }
 
-/* CockySpeak Iframe Container */
-.cockyspeak-iframe-container {
+/* Contact Section */
+.contact {
+    background-color: #ef96b4; /* Light pink */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.contact ul {
+    padding-left: 20px;
+}
+
+.contact a {
+    color: #D32F2F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #B71C1C;
+    text-decoration: underline;
+}
+/* Video container for responsive design */
+.video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    max-width: 100%; /* Ensure it doesn't overflow the parent container */
-    margin: 20px auto; /* Center the iframe */
-    border-radius: 8px; /* Rounded corners for aesthetics */
-    background-color: #f4f4f4; /* Light gray background for contrast */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-/* CockySpeak Responsive Iframe */
-.cockyspeak-iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width of the container */
-    height: 100%; /* Full height of the container */
-    border: none; /* Remove iframe border */
-    border-radius: 8px; /* Match the container's rounded corners */
-}
-
-/* SpotFinder Video Container */
-.spotfinder-video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%; /* Ensure it doesn't overflow the parent container */
-    margin: 20px auto; /* Center the video */
-    border-radius: 8px; /* Rounded corners for aesthetics */
+    max-width: 100%;
     background-color: #e21010; /* Optional light background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 10px auto; /* Center the video */
+    border-radius: 8px;
 }
 
-/* SpotFinder Responsive Iframe */
-.spotfinder-video-container iframe {
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: none;
     border-radius: 8px;
 }
